@@ -1,0 +1,103 @@
+# =========================================================
+# Panel de administración (Pages CMS — https://app.pagescms.org)
+# Define qué se puede editar desde el panel y con qué formulario.
+# =========================================================
+
+media:
+  input: public/imagenes/productos
+  output: /imagenes/productos
+
+content:
+  # ---------- PRODUCTOS ----------
+  - name: productos
+    label: Productos
+    type: file
+    path: public/data/productos.json
+    format: json
+    list: true
+    fields:
+      - name: nombre
+        label: Nombre del producto
+        type: string
+        required: true
+      - name: foto
+        label: Foto
+        description: Ideal vertical (4:5) y con buena luz. Se achica sola para que la web cargue rápido.
+        type: image
+        required: true
+        options:
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
+      - name: categoria
+        label: Categoría
+        description: Para sumar una categoría nueva (ej. Velas) hay que agregarla a esta lista en el archivo .pages.yml.
+        type: select
+        required: true
+        options:
+          values: [Hogar, Escritorio, Decoración, Mascotas, Velas, A medida]
+      - name: descripcion
+        label: Descripción corta
+        description: Una o dos líneas. Aparece debajo del nombre.
+        type: text
+      - name: destacado
+        label: Mostrar en la portada
+        description: Los primeros 3 destacados aparecen en las fotos grandes del inicio.
+        type: boolean
+        default: false
+      - name: visible
+        label: Visible en la web
+        description: Destildá para ocultarlo sin borrarlo.
+        type: boolean
+        default: true
+
+  # ---------- RESEÑAS ----------
+  - name: resenas
+    label: Reseñas
+    type: file
+    path: public/data/resenas.json
+    format: json
+    list: true
+    fields:
+      - name: texto
+        label: Qué dijo el cliente
+        type: text
+        required: true
+      - name: nombre
+        label: Nombre del cliente
+        type: string
+      - name: producto
+        label: Producto
+        type: string
+      - name: visible
+        label: Visible en la web
+        type: boolean
+        default: true
+
+  # ---------- DATOS DEL SITIO ----------
+  - name: sitio
+    label: Datos de contacto y entregas
+    type: file
+    path: public/data/sitio.json
+    format: json
+    fields:
+      - name: whatsapp_principal_nombre
+        label: WhatsApp principal — nombre
+        type: string
+      - name: whatsapp_principal_numero
+        label: WhatsApp principal — número
+        description: Recibe todas las consultas de la web. Formato 549 + código de área + número, sin espacios ni signos (ej. 5491166274345).
+        type: string
+        required: true
+      - name: whatsapp_secundario_nombre
+        label: WhatsApp secundario — nombre
+        type: string
+      - name: whatsapp_secundario_numero
+        label: WhatsApp secundario — número
+        type: string
+      - name: instagram_usuario
+        label: Usuario de Instagram (sin @)
+        type: string
+      - name: entregas
+        label: Formas de entrega
+        type: string
+        list: true
