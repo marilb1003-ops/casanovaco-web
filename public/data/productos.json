@@ -257,5 +257,13 @@
     "descripcion": "Organizador modular apilable para calzado con estructura calada, optimiza el espacio con su diseño resistente, liviano y adaptable en niveles según tus necesidades",
     "destacado": false,
     "visible": true
+  },
+  {
+    "nombre": "Angelitos a Medida",
+    "foto": "/imagenes/productos/Angelitos a medida.jpeg",
+    "categoria": "Religiosos",
+    "descripcion": "Figuras escultóricas de angelitos personalizados, finalizados con un acabado artesanal plateado que resalta las alas y sus expresiones.",
+    "destacado": false,
+    "visible": true
   }
 ]
