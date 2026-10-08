@@ -1,31 +1,31 @@
 [
   {
     "nombre": "Corona ornamental",
-    "foto": "/imagenes/productos/corona-ornamental.jpg",
+    "foto": "/imagenes/productos/Corona de la virgen.jpeg",
     "categoria": "Personalizados",
-    "descripcion": "Pieza de gran escala con terminación dorada.",
-    "destacado": true,
+    "descripcion": "Exclusiva pieza ornamental de 51cm. Diseñada a medida e impresa en múltiples secciones ensambladas cuidadosamente a mano, cuenta con un delicado calado barroco y un acabado profesional en dorado brillante.",
+    "destacado": false,
     "visible": true
   },
   {
-    "nombre": "Globo aerostático",
-    "foto": "/imagenes/productos/globo-aerostatico.jpg",
+    "nombre": "Alcancia de Globo aerostático",
+    "foto": "/imagenes/productos/Alcancia globo aerostatico.jpeg",
     "categoria": "Decoración",
-    "descripcion": "Decoración liviana para estantes y cuartos.",
+    "descripcion": "Alcancía decorativa con diseño de globo aerostático. Combina un acabado de franjas en azul y blanco con una canastilla detallada estilo mimbre.",
     "destacado": true,
     "visible": true
   },
   {
-    "nombre": "Maceta bicolor",
-    "foto": "/imagenes/productos/maceta-bicolor.jpg",
+    "nombre": "Maceta bicolor con drenaje de agua",
+    "foto": "/imagenes/productos/Maceta con drenaje.jpeg",
     "categoria": "Hogar",
-    "descripcion": "Textura rayada en blanco y negro.",
+    "descripcion": "Maceta moderna bicolor con textura acanalada. Incluye sistema de drenaje de agua integrado para mantener tus plantas sanas y sin acumulaciones de agua.",
     "destacado": true,
     "visible": true
   },
   {
     "nombre": "Porta cinta métrica",
-    "foto": "/imagenes/productos/porta-cinta-metrica.jpg",
+    "foto": "/imagenes/productos/Porta cinta metrica.jpeg",
     "categoria": "Hogar",
     "descripcion": "Guarda y enrolla la cinta métrica. Ideal para el costurero.",
     "destacado": false,
@@ -33,31 +33,31 @@
   },
   {
     "nombre": "Base de carga retro",
-    "foto": "/imagenes/productos/base-carga-retro.jpg",
+    "foto": "/imagenes/productos/Cargador AppleWarch.jpeg",
     "categoria": "Escritorio",
-    "descripcion": "Soporte de carga para Apple Watch con forma de consola retro.",
+    "descripcion": "Soporte de carga para relojes estilo Apple Watch con forma de consola retro.",
     "destacado": false,
     "visible": true
   },
   {
-    "nombre": "Soporte de auriculares",
-    "foto": "/imagenes/productos/soporte-auriculares.jpg",
+    "nombre": "Soporte para auriculares",
+    "foto": "/imagenes/productos/Soporte de auricular.jpeg",
     "categoria": "Escritorio",
     "descripcion": "Se fija a la pared y ordena tu setup.",
     "destacado": false,
     "visible": true
   },
   {
-    "nombre": "Colgador de bananas Mono",
-    "foto": "/imagenes/productos/colgador-bananas-mono.jpg",
+    "nombre": "Gorila colgador de bananas",
+    "foto": "/imagenes/productos/Gorila sujeta bananas.jpeg",
     "categoria": "Hogar",
-    "descripcion": "Un toque divertido para la cocina.",
+    "descripcion": "Un toque divertido para la cocina y ayuda a mantener tus bananas frescas por más tiempo.",
     "destacado": false,
     "visible": true
   },
   {
     "nombre": "Calendario perpetuo",
-    "foto": "/imagenes/productos/calendario-perpetuo.jpg",
+    "foto": "/imagenes/productos/Calendario interactivo.jpeg",
     "categoria": "Escritorio",
     "descripcion": "Fichas intercambiables, sirve todos los años.",
     "destacado": false,
@@ -65,15 +65,15 @@
   },
   {
     "nombre": "Porta bolsitas para paseos",
-    "foto": "/imagenes/productos/porta-bolsitas-mascotas.jpg",
+    "foto": "/imagenes/productos/Porta rollo de bolsas mascota.jpeg",
     "categoria": "Mascotas",
-    "descripcion": "Con mosquetón para colgar de la correa.",
+    "descripcion": "Dispensador de bolsas para paseo con un divertido diseño en forma de vasito de café, con mosquetón para colgar de la correa.",
     "destacado": false,
     "visible": true
   },
   {
     "nombre": "Medallero personalizado",
-    "foto": "/imagenes/productos/medallero-personalizado.jpg",
+    "foto": "/imagenes/productos/Medallero runner.jpeg",
     "categoria": "Personalizados",
     "descripcion": "Con tu frase y el tamaño que necesites.",
     "destacado": false,
@@ -81,41 +81,180 @@
   },
   {
     "nombre": "Casita organizadora de té",
-    "foto": "/imagenes/productos/casita-organizadora-te.jpg",
+    "foto": "/imagenes/productos/Dispenseador de saquitos de te-cafe.jpeg",
     "categoria": "Hogar",
-    "descripcion": "Dispensador de saquitos con forma de casita.",
-    "destacado": false,
+    "descripcion": "Dispensador de saquitos con forma de casita oriental, tiene base giratoria para tener acceso a todas las partes.",
+    "destacado": true,
     "visible": true
   },
   {
     "nombre": "Fantasmita luminoso",
-    "foto": "/imagenes/productos/fantasmita-luminoso.jpg",
+    "foto": "/imagenes/productos/Fantasma lumidiscente.jpeg",
     "categoria": "Decoración",
-    "descripcion": "Brilla en la oscuridad.",
+    "descripcion": "Impreso en material fotoluminiscente de alta calidad que brilla en la oscuridad. Carga luz durante el día y emite un suave brillo verdoso en la oscuridad.",
     "destacado": false,
     "visible": true
   },
   {
     "nombre": "Porta rollo texturado",
-    "foto": "/imagenes/productos/porta-rollo-texturado.jpg",
+    "foto": "/imagenes/productos/Porta papel higienico.jpeg",
     "categoria": "Hogar",
     "descripcion": "Para cocina o baño, con acabado acanalado.",
     "destacado": false,
     "visible": true
   },
   {
-    "nombre": "Ángel decorativo",
-    "foto": "/imagenes/productos/angel-decorativo.jpg",
-    "categoria": "Personalizados",
-    "descripcion": "Terminación plateada.",
+    "nombre": "Florero texturado",
+    "foto": "/imagenes/productos/Florero con filamento degradado.jpeg",
+    "categoria": "Decoración",
+    "descripcion": "Efecto piedra en tonos grises y acabado texturizado exclusivo.",
     "destacado": false,
     "visible": true
   },
   {
-    "nombre": "Florero texturado",
-    "foto": "/imagenes/productos/florero-texturado.jpg",
-    "categoria": "Decoración",
-    "descripcion": "Efecto piedra en tonos grises.",
+    "nombre": "Alcancia de balon pintable.",
+    "foto": "/imagenes/productos/Alcancia futbol pintable.jpeg",
+    "categoria": "Personalizados",
+    "descripcion": "Diseñada con relieve detallado para facilitar el pintado con acrílicos o témperas. Una actividad didáctica y divertida para regalar, crear en familia y empezar a ahorrar.  ",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Alcancía en Forma de Lápiz",
+    "foto": "/imagenes/productos/Alcancia pencil.jpeg",
+    "categoria": "Personalizados",
+    "descripcion": "Alcancía con forma de lápiz gigante, impresa en vivos colores. Posee una ranura frontal para introducir monedas o billetes de forma sencilla y una abertura de rosca para tener acceso a su contenido.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Cajita para Cartas UNO",
+    "foto": "/imagenes/productos/Cajita de UNO 1.jpeg",
+    "categoria": "Personalizados",
+    "descripcion": "Estuche rígido para proteger tu mazo de cartas UNO. Cuenta con trabas de cierre seguro en color contraste y el logo del juego grabado en la tapa.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Figura POP Michael Jackson",
+    "foto": "/imagenes/productos/FunkoPop Michael Jackson pintable.jpeg",
+    "categoria": "Figuras",
+    "descripcion": "Figura estilo Funko de colección con un acabado de superficie perfecto para pintar con acrílicos o témperas a tu gusto.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Llavero Gorila Pensativo",
+    "foto": "/imagenes/productos/Gorila pensativo llavero.jpeg",
+    "categoria": "Llaveros",
+    "descripcion": "Llavero o colgante decorativo en forma de gorila pensativo, diseño detallado y textura distintiva con enganche superior para llaves, mochilas o bolsos.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Soporte Magnético para Control Remoto",
+    "foto": "/imagenes/productos/Iman para control remoto.jpeg",
+    "categoria": "Hogar",
+    "descripcion": "Soporte magnético adhesivo de pared para mantener tus controles siempre a mano. Fácil instalación.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Marcalibros Mickey",
+    "foto": "/imagenes/productos/Marcalibros mickey.jpeg",
+    "categoria": "Escritorio",
+    "descripcion": "Marcador de páginas clip con la icónica silueta de orejas de Mickey. Disponible en varios tonos  para combinar con tus lecturas.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Marcalibros Snoopy",
+    "foto": "/imagenes/productos/Marcalibros snoopy.jpeg",
+    "categoria": "Escritorio",
+    "descripcion": "Marcalibros con la figura de Snoopy escribiendo a máquina. El compañero ideal para fanáticos de la lectura.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Organizador de Escritorio Pendrive",
+    "foto": "/imagenes/productos/Organizador de escritorio pendrive.jpeg",
+    "categoria": "Escritorio",
+    "descripcion": "Organizador multifunción con forma de memoria USB gigante, incluye ranuras superiores para bolígrafos y espacio frontal interactivo para tacos de notas.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Caja Organizadora de Municiones 9mm",
+    "foto": "/imagenes/productos/Organizador de municiones.jpeg",
+    "categoria": "Personalizados",
+    "descripcion": "Caja táctica organizadora con cajón deslizable de compartimentos individuales para municiones calibre 9mm.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Gancho Colgador de Mochila",
+    "foto": "/imagenes/productos/Porta bolso 1.2.jpeg",
+    "mas_fotos": [
+      "/imagenes/productos/Porta bolso.jpeg"
+    ],
+    "categoria": "Escritorio",
+    "descripcion": "Soporte portabolso portátil impreso para enganchar firmemente en el borde de mesas o escritorios.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Porta Pajuelas Amplificador Marshall",
+    "foto": "/imagenes/productos/Porta pajuelas.jpeg",
+    "categoria": "Escritorio",
+    "descripcion": "Organizador de púas para guitarra con diseño en miniatura del icónico amplificador Marshall.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Porta Sahumerio Samurái",
+    "foto": "/imagenes/productos/Porta sahumerio samurai.jpeg",
+    "categoria": "Hogar",
+    "descripcion": "Portasahumerios decorativo con la figura detallada de un guerrero samurái en postura de combate.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Sagrada Familia #1 (Diseño Minimalista)",
+    "foto": "/imagenes/productos/Sagrada familia 1.jpeg",
+    "categoria": "Religiosos",
+    "descripcion": "Escultura espiritual de la Sagrada Familia con trazos orgánicos y estilo minimalista nórdico.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Sagrada Familia #2 (Diseño Clásico en Arco)",
+    "foto": "/imagenes/productos/Sagrada familia 2.jpeg",
+    "categoria": "Religiosos",
+    "descripcion": "Representación de la Sagrada Familia enmarcada en una estructura semicircular con acabado plateado satinado.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Porta Espátula de Cocina de Mickey",
+    "foto": "/imagenes/productos/Soporte para espatula de cocina.jpeg",
+    "categoria": "Hogar",
+    "descripcion": "Posautensilios de cocina con la icónica silueta de Mickey Mouse, mantiene tus mesadas limpias apoyando espátulas, cucharas o cuencos mientras cocinás.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Tapa para Tubo de Silicona",
+    "foto": "/imagenes/productos/Tapa para silicona.jpeg",
+    "categoria": "Hogar",
+    "descripcion": "Tapón protector para sellar tubos de silicona, selladores o adhesivos de cartucho.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Zapatera Apilable",
+    "foto": "/imagenes/productos/zapatera apilable.jpeg",
+    "categoria": "Hogar",
+    "descripcion": "Organizador modular apilable para calzado con estructura calada, optimiza el espacio con su diseño resistente, liviano y adaptable en niveles según tus necesidades",
     "destacado": false,
     "visible": true
   }
