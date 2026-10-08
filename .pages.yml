@@ -28,6 +28,15 @@ content:
         options:
           extensions: [jpg, jpeg, png, webp]
           rename: true
+      - name: mas_fotos
+        label: Más fotos (opcional)
+        description: Hasta 4 fotos extra. Solo se ven al abrir el producto; en la grilla del catálogo se muestra únicamente la foto principal.
+        type: image
+        options:
+          multiple:
+            max: 4
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
       - name: categoria
         label: Categoría
         description: Para sumar una categoría nueva (ej. Velas) hay que agregarla a esta lista en el archivo .pages.yml.
