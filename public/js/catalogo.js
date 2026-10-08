@@ -17,8 +17,18 @@ function prepararProductos(lista) {
       ...p,
       categoria: (p.categoria || '').trim() || 'Otros',
       descripcion: p.descripcion || '',
+      fotos: juntarFotos(p),
       id: slug(p.nombre),
     }));
+}
+
+/**
+ * Lista de fotos del producto: la principal primero y después las de "Más fotos"
+ * (el panel puede guardarlas como lista o como texto suelto; aceptamos las dos).
+ */
+function juntarFotos(p) {
+  const extras = Array.isArray(p.mas_fotos) ? p.mas_fotos : [p.mas_fotos];
+  return [...new Set([p.foto, ...extras].filter((f) => typeof f === 'string' && f.trim()))];
 }
 
 /** Categorías presentes, ordenadas según ORDEN_CATEGORIAS. */
@@ -144,13 +154,63 @@ export function iniciarCatalogo(listaCruda, numeroWhatsApp) {
 /** Ventana emergente con la foto grande y el botón de WhatsApp. */
 function crearFicha(numeroWhatsApp) {
   const $dialogo = document.querySelector('[data-ficha]');
-  const $foto = $dialogo.querySelector('[data-ficha-foto]');
+  const $pista = $dialogo.querySelector('[data-ficha-pista]');
+  const $miniaturas = $dialogo.querySelector('[data-ficha-miniaturas]');
   const $categoria = $dialogo.querySelector('[data-ficha-categoria]');
   const $titulo = $dialogo.querySelector('[data-ficha-titulo]');
   const $descripcion = $dialogo.querySelector('[data-ficha-descripcion]');
   const $whatsapp = $dialogo.querySelector('[data-ficha-whatsapp]');
   const $compartir = $dialogo.querySelector('[data-compartir]');
   let productoActual = null;
+
+  /* ----- Galería ----- */
+  function irAFoto(i) {
+    $pista.scrollTo({ left: i * $pista.clientWidth });
+  }
+
+  function marcarMiniatura() {
+    const i = Math.round($pista.scrollLeft / Math.max($pista.clientWidth, 1));
+    $miniaturas.querySelectorAll('button').forEach((b, j) => b.setAttribute('aria-current', String(j === i)));
+  }
+  $pista.addEventListener('scroll', () => requestAnimationFrame(marcarMiniatura), { passive: true });
+
+  // Con el teclado: flechas izquierda/derecha para pasar fotos
+  $pista.addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    e.preventDefault();
+    const i = Math.round($pista.scrollLeft / $pista.clientWidth) + (e.key === 'ArrowRight' ? 1 : -1);
+    irAFoto(Math.max(0, Math.min(i, $pista.children.length - 1)));
+  });
+
+  function dibujarGaleria(p) {
+    $pista.replaceChildren(
+      ...p.fotos.map((src, i) => {
+        const img = crear('img');
+        img.src = src;
+        img.alt = p.fotos.length > 1 ? `${p.nombre} — foto ${i + 1} de ${p.fotos.length}` : p.nombre;
+        if (i > 0) img.loading = 'lazy';
+        return img;
+      })
+    );
+    $pista.scrollLeft = 0;
+
+    $miniaturas.hidden = p.fotos.length < 2;
+    $miniaturas.replaceChildren(
+      ...(p.fotos.length < 2 ? [] : p.fotos.map((src, i) => {
+        const b = crear('button', 'ficha__miniatura');
+        b.type = 'button';
+        b.setAttribute('aria-label', `Ver foto ${i + 1}`);
+        b.setAttribute('aria-current', String(i === 0));
+        const img = crear('img');
+        img.src = src;
+        img.alt = '';
+        img.loading = 'lazy';
+        b.append(img);
+        b.addEventListener('click', () => irAFoto(i));
+        return b;
+      }))
+    );
+  }
 
   const cerrar = () => $dialogo.close();
   $dialogo.querySelector('[data-cerrar-ficha]').addEventListener('click', cerrar);
@@ -179,8 +239,7 @@ function crearFicha(numeroWhatsApp) {
   return {
     abrir(p, { sinCambiarDireccion = false } = {}) {
       productoActual = p;
-      $foto.src = p.foto;
-      $foto.alt = p.nombre;
+      dibujarGaleria(p);
       $categoria.textContent = p.categoria;
       ponerTextoConAmp($titulo, p.nombre);
       $descripcion.textContent = p.descripcion;

@@ -168,7 +168,11 @@
       <button type="button" class="ficha__cerrar" data-cerrar-ficha aria-label="Cerrar">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
       </button>
-      <img class="ficha__foto" data-ficha-foto src="" alt="">
+      <!-- Galería: se desliza con el dedo en el celular; las miniaturas aparecen si hay más de una foto -->
+      <div class="ficha__galeria">
+        <div class="ficha__pista" data-ficha-pista tabindex="0" aria-label="Fotos del producto"></div>
+        <div class="ficha__miniaturas" data-ficha-miniaturas hidden></div>
+      </div>
       <div class="ficha__texto">
         <p class="tarjeta-producto__categoria" data-ficha-categoria></p>
         <h2 id="ficha-titulo" class="ficha__titulo" data-ficha-titulo></h2>

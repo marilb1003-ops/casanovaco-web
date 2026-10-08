@@ -290,7 +290,22 @@ p { margin: 0; }
 }
 .ficha::backdrop { background: rgba(42, 36, 32, 0.6); }
 .ficha__contenido { position: relative; display: grid; }
-.ficha__foto { width: 100%; max-height: 60dvh; object-fit: cover; background: var(--arena); }
+/* Galería de la ficha: una tira horizontal que se desliza (scroll-snap) */
+.ficha__galeria { display: flex; flex-direction: column; min-width: 0; background: var(--superficie); }
+.ficha__pista {
+  display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+  scrollbar-width: none; aspect-ratio: 4 / 5; max-height: 62dvh; background: var(--arena);
+}
+.ficha__pista::-webkit-scrollbar { display: none; }
+.ficha__pista img { flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover; scroll-snap-align: start; }
+.ficha__miniaturas { display: flex; gap: 8px; padding: 12px 22px 0; overflow-x: auto; }
+.ficha__miniatura {
+  flex: none; width: 56px; height: 56px; padding: 0; border-radius: 10px; overflow: hidden; cursor: pointer;
+  border: 2px solid transparent; background: var(--arena); opacity: .65; transition: opacity .2s, border-color .2s;
+}
+.ficha__miniatura img { width: 100%; height: 100%; object-fit: cover; }
+.ficha__miniatura:hover { opacity: 1; }
+.ficha__miniatura[aria-current="true"] { border-color: var(--tinta); opacity: 1; }
 .ficha__texto { padding: 22px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
 .ficha__titulo { font-size: 28px; }
 .ficha__descripcion { color: var(--texto-suave); line-height: 1.6; margin-bottom: 8px; }
@@ -303,6 +318,8 @@ p { margin: 0; }
 .ficha__cerrar svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 @media (min-width: 760px) {
   .ficha__contenido { grid-template-columns: 1.1fr 1fr; align-items: center; }
-  .ficha__foto { height: 100%; max-height: 80dvh; aspect-ratio: 4 / 5; }
+  .ficha__galeria { padding-bottom: 16px; }
+  .ficha__pista { max-height: 72dvh; }
+  .ficha__miniaturas { padding: 12px 16px 0; }
   .ficha__texto { padding: 36px; }
 }
