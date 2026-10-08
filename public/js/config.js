@@ -24,7 +24,12 @@ export const ORDEN_CATEGORIAS = [
   'Decoración',
   'Mascotas',
   'Velas',
-  'A medida',
+  'Personalizados',
+  'Religiosos',
+  'Navidad',
+  'Halloween',
+  'Figuras',
+  'Llaveros',
 ];
 
 /** Texto del filtro que muestra todo. */
