@@ -1,0 +1,9 @@
+{
+  "name": "casanovaco-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Herramientas internas (no forman parte de la web publicada).",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

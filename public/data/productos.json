@@ -1,0 +1,122 @@
+[
+  {
+    "nombre": "Corona ornamental",
+    "foto": "/imagenes/productos/corona-ornamental.jpg",
+    "categoria": "A medida",
+    "descripcion": "Pieza de gran escala con terminación dorada.",
+    "destacado": true,
+    "visible": true
+  },
+  {
+    "nombre": "Globo aerostático",
+    "foto": "/imagenes/productos/globo-aerostatico.jpg",
+    "categoria": "Decoración",
+    "descripcion": "Decoración liviana para estantes y cuartos.",
+    "destacado": true,
+    "visible": true
+  },
+  {
+    "nombre": "Maceta bicolor",
+    "foto": "/imagenes/productos/maceta-bicolor.jpg",
+    "categoria": "Decoración",
+    "descripcion": "Textura rayada en blanco y negro.",
+    "destacado": true,
+    "visible": true
+  },
+  {
+    "nombre": "Porta cinta métrica",
+    "foto": "/imagenes/productos/porta-cinta-metrica.jpg",
+    "categoria": "Hogar",
+    "descripcion": "Guarda y enrolla la cinta métrica. Ideal para el costurero.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Base de carga retro",
+    "foto": "/imagenes/productos/base-carga-retro.jpg",
+    "categoria": "Escritorio",
+    "descripcion": "Soporte de carga para Apple Watch con forma de consola retro.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Soporte de auriculares",
+    "foto": "/imagenes/productos/soporte-auriculares.jpg",
+    "categoria": "Escritorio",
+    "descripcion": "Se fija a la pared y ordena tu setup.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Colgador de bananas Mono",
+    "foto": "/imagenes/productos/colgador-bananas-mono.jpg",
+    "categoria": "Hogar",
+    "descripcion": "Un toque divertido para la cocina.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Calendario perpetuo",
+    "foto": "/imagenes/productos/calendario-perpetuo.jpg",
+    "categoria": "Escritorio",
+    "descripcion": "Fichas intercambiables, sirve todos los años.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Porta bolsitas para paseos",
+    "foto": "/imagenes/productos/porta-bolsitas-mascotas.jpg",
+    "categoria": "Mascotas",
+    "descripcion": "Con mosquetón para colgar de la correa.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Medallero personalizado",
+    "foto": "/imagenes/productos/medallero-personalizado.jpg",
+    "categoria": "A medida",
+    "descripcion": "Con tu frase y el tamaño que necesites.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Casita organizadora de té",
+    "foto": "/imagenes/productos/casita-organizadora-te.jpg",
+    "categoria": "Hogar",
+    "descripcion": "Dispensador de saquitos con forma de casita.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Fantasmita luminoso",
+    "foto": "/imagenes/productos/fantasmita-luminoso.jpg",
+    "categoria": "Decoración",
+    "descripcion": "Brilla en la oscuridad.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Porta rollo texturado",
+    "foto": "/imagenes/productos/porta-rollo-texturado.jpg",
+    "categoria": "Hogar",
+    "descripcion": "Para cocina o baño, con acabado acanalado.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Ángel decorativo",
+    "foto": "/imagenes/productos/angel-decorativo.jpg",
+    "categoria": "Decoración",
+    "descripcion": "Terminación plateada.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Florero texturado",
+    "foto": "/imagenes/productos/florero-texturado.jpg",
+    "categoria": "Decoración",
+    "descripcion": "Efecto piedra en tonos grises.",
+    "destacado": false,
+    "visible": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "CasaNova&co · Impresión 3D a medida",
+  "short_name": "CasaNova&co",
+  "description": "Catálogo de impresiones 3D a medida. Pedidos por WhatsApp.",
+  "lang": "es-AR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F6EFE6",
+  "theme_color": "#F6EFE6",
+  "icons": [
+    { "src": "/imagenes/marca/icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/imagenes/marca/icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/imagenes/marca/icono-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

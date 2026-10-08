@@ -1,0 +1,7 @@
+# Reglas de caché para Cloudflare Pages
+/data/*
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/imagenes/*
+  Cache-Control: public, max-age=604800

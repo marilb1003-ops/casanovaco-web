@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CasaNova&amp;co · Impresión 3D a medida</title>
+  <meta name="description" content="Diseñamos e imprimimos en 3D piezas únicas para tu casa, tu escritorio y tus regalos. Pedidos a medida por WhatsApp. Villa Ballester, CABA y envíos a todo el país.">
+  <meta name="theme-color" content="#F6EFE6">
+
+  <!-- Vista previa al compartir el link (WhatsApp, Instagram, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CasaNova&amp;co · Impresión 3D a medida">
+  <meta property="og:description" content="Si lo podés imaginar, lo imprimimos. Mirá nuestro catálogo y pedí tu presupuesto por WhatsApp.">
+  <meta property="og:image" content="/imagenes/marca/og-imagen.jpg">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Íconos y app instalable (PWA) -->
+  <link rel="icon" type="image/png" href="/imagenes/marca/favicon.png">
+  <link rel="apple-touch-icon" href="/imagenes/marca/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+
+  <!-- Tipografías (Google Fonts, gratis) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&display=swap">
+
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#catalogo">Ir al catálogo</a>
+
+  <!-- ============ ENCABEZADO ============ -->
+  <header class="encabezado">
+    <div class="contenedor encabezado__fila">
+      <a href="#inicio" class="encabezado__logo" aria-label="CasaNova&amp;co, ir al inicio">
+        <img src="/imagenes/marca/logo-tinta.png" alt="CasaNova&amp;co" width="330" height="130">
+      </a>
+      <nav class="encabezado__nav" aria-label="Principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#resenas" data-enlace-resenas hidden>Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="boton boton--marron boton--chico encabezado__cta" data-whatsapp="general" href="#contacto" target="_blank" rel="noopener">Pedir presupuesto</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PORTADA ============ -->
+    <section id="inicio" class="portada contenedor">
+      <div class="portada__texto">
+        <p class="sobretitulo">Impresión 3D a medida · Decoración con intención</p>
+        <h1 class="portada__titulo">Si lo podés imaginar, <em>lo imprimimos.</em></h1>
+        <p class="portada__bajada">Diseñamos e imprimimos piezas únicas para tu casa, tu escritorio y tus regalos. Cuidamos cada detalle, desde la pieza más chica hasta el pedido más ambicioso.</p>
+        <div class="portada__acciones">
+          <a class="boton boton--oscuro" href="#catalogo">Ver catálogo</a>
+          <a class="boton boton--borde" data-whatsapp="general" href="#contacto" target="_blank" rel="noopener">
+            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><use href="#icono-chat"></use></svg>
+            Contanos tu idea
+          </a>
+        </div>
+      </div>
+      <!-- Se llena con los productos marcados como "destacado" -->
+      <div class="portada__collage" data-collage aria-hidden="true"></div>
+    </section>
+
+    <!-- ============ CATÁLOGO ============ -->
+    <section id="catalogo" class="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="contenedor catalogo__interior">
+        <div class="seccion__cabecera seccion__cabecera--fila">
+          <div>
+            <h2 id="catalogo-titulo" class="seccion__titulo">Nuestros trabajos</h2>
+            <p class="seccion__bajada">Inspirate con lo que ya hicimos. Todo se puede adaptar en tamaño, color y diseño.</p>
+          </div>
+          <p class="catalogo__contador" data-contador aria-live="polite"></p>
+        </div>
+
+        <div class="filtros" role="group" aria-label="Filtrar por categoría" data-filtros></div>
+
+        <div class="grilla" data-grilla>
+          <p class="catalogo__estado">Cargando catálogo…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO PEDIR ============ -->
+    <section id="como-pedir" class="contenedor seccion" aria-labelledby="pasos-titulo">
+      <div class="seccion__cabecera">
+        <h2 id="pasos-titulo" class="seccion__titulo">Cómo hacer tu pedido</h2>
+        <p class="seccion__bajada">De la idea a tus manos en cuatro pasos. Sin vueltas, todo por WhatsApp.</p>
+      </div>
+      <ol class="pasos">
+        <li class="tarjeta paso">
+          <span class="paso__numero">01</span>
+          <h3>Nos contás tu idea</h3>
+          <p>Mandanos una foto, un dibujo o las medidas de lo que necesitás.</p>
+        </li>
+        <li class="tarjeta paso">
+          <span class="paso__numero">02</span>
+          <h3>Lo diseñamos</h3>
+          <p>Armamos el modelo, te pasamos el presupuesto y lo ajustamos con vos.</p>
+        </li>
+        <li class="tarjeta paso">
+          <span class="paso__numero">03</span>
+          <h3>Lo imprimimos</h3>
+          <p>Imprimimos y terminamos cada pieza a mano, cuidando cada detalle.</p>
+        </li>
+        <li class="tarjeta paso">
+          <span class="paso__numero">04</span>
+          <h3>Te lo entregamos</h3>
+          <ul class="paso__entregas" data-entregas></ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ BANNER A MEDIDA ============ -->
+    <section class="contenedor seccion seccion--sin-arriba">
+      <div class="banner">
+        <div class="banner__texto">
+          <h2>¿Tenés una idea que no está acá?</h2>
+          <p>Regalos personalizados, repuestos, organizadores o esa pieza que no encontrás en ningún lado. La diseñamos desde cero.</p>
+        </div>
+        <a class="boton boton--claro" data-whatsapp="general" href="#contacto" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- ============ RESEÑAS (se muestra solo si hay reseñas cargadas) ============ -->
+    <section id="resenas" class="contenedor seccion seccion--sin-arriba" aria-labelledby="resenas-titulo" data-seccion-resenas hidden>
+      <h2 id="resenas-titulo" class="seccion__titulo">Lo que dicen nuestros clientes</h2>
+      <div class="resenas" data-resenas></div>
+    </section>
+  </main>
+
+  <!-- ============ PIE / CONTACTO ============ -->
+  <footer id="contacto" class="pie">
+    <div class="contenedor pie__fila">
+      <div class="pie__marca">
+        <img src="/imagenes/marca/logo-crema.png" alt="CasaNova&amp;co" width="330" height="130" loading="lazy">
+        <p>Impresión 3D &amp; velas artesanales. Soluciones para el hogar.</p>
+      </div>
+      <div class="pie__columna">
+        <h2 class="pie__titulo">Escribinos</h2>
+        <ul class="pie__lista" data-contactos></ul>
+      </div>
+      <div class="pie__columna">
+        <h2 class="pie__titulo">Seguinos</h2>
+        <ul class="pie__lista">
+          <li><a data-instagram href="https://instagram.com/casanovaco_ar" target="_blank" rel="noopener">Instagram · @casanovaco_ar</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="contenedor pie__legal">© <span data-anio></span> CasaNova&amp;co</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="flotante" data-whatsapp="general" href="#contacto" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icono-chat"></use></svg>
+  </a>
+
+  <!-- Ficha de producto (se abre al tocar una foto; también por link directo #producto-nombre) -->
+  <dialog class="ficha" data-ficha aria-labelledby="ficha-titulo">
+    <div class="ficha__contenido">
+      <button type="button" class="ficha__cerrar" data-cerrar-ficha aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+      <img class="ficha__foto" data-ficha-foto src="" alt="">
+      <div class="ficha__texto">
+        <p class="tarjeta-producto__categoria" data-ficha-categoria></p>
+        <h2 id="ficha-titulo" class="ficha__titulo" data-ficha-titulo></h2>
+        <p class="ficha__descripcion" data-ficha-descripcion></p>
+        <a class="boton boton--marron" data-ficha-whatsapp href="#" target="_blank" rel="noopener">
+          <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><use href="#icono-chat"></use></svg>
+          Consultar por WhatsApp
+        </a>
+        <button type="button" class="enlace-boton" data-compartir>Copiar link de este producto</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Íconos SVG reutilizables -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="icono-chat" viewBox="0 0 24 24">
+      <path d="M3.5 20.5 5 16.2A8.5 8.5 0 1 1 8.2 19.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+    </symbol>
+  </svg>
+
+  <noscript>
+    <p class="contenedor">Para ver el catálogo necesitás activar JavaScript. También podés escribirnos a WhatsApp al +54 9 11 6627-4345.</p>
+  </noscript>
+</body>
+</html>
