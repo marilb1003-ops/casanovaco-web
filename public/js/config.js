@@ -28,7 +28,7 @@ export const ORDEN_CATEGORIAS = [
   'Religiosos',
   'Navidad',
   'Halloween',
-  'Figuras',
+  'Figuras POP',
   'Llaveros',
 ];
 
