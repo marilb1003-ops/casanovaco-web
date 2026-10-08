@@ -43,7 +43,7 @@ content:
         type: select
         required: true
         options:
-          values: [Hogar, Escritorio, Decoración, Mascotas, Velas, Personalizados, Religiosos, Navidad, Halloween, Figuras, Llaveros]
+          values: [Hogar, Escritorio, Decoración, Mascotas, Velas, Personalizados, Religiosos, Navidad, Halloween, Figuras POP, Llaveros]
       - name: descripcion
         label: Descripción corta
         description: Una o dos líneas. Aparece debajo del nombre.
