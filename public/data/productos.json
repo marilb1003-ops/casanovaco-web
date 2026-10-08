@@ -236,7 +236,10 @@
   },
   {
     "nombre": "Porta Espátula de Cocina de Mickey",
-    "foto": "/imagenes/productos/Soporte para espatula de cocina.jpeg",
+    "foto": "/imagenes/productos/Soporte para espatula de cocina1.jpeg",
+    "mas_fotos": [
+      "/imagenes/productos/Soporte para espatula de cocina.jpeg"
+    ],
     "categoria": "Hogar",
     "descripcion": "Posautensilios de cocina con la icónica silueta de Mickey Mouse, mantiene tus mesadas limpias apoyando espátulas, cucharas o cuencos mientras cocinás.",
     "destacado": false,
