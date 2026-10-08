@@ -2,7 +2,7 @@
   {
     "nombre": "Corona ornamental",
     "foto": "/imagenes/productos/corona-ornamental.jpg",
-    "categoria": "A medida",
+    "categoria": "Personalizados",
     "descripcion": "Pieza de gran escala con terminación dorada.",
     "destacado": true,
     "visible": true
@@ -18,7 +18,7 @@
   {
     "nombre": "Maceta bicolor",
     "foto": "/imagenes/productos/maceta-bicolor.jpg",
-    "categoria": "Decoración",
+    "categoria": "Hogar",
     "descripcion": "Textura rayada en blanco y negro.",
     "destacado": true,
     "visible": true
@@ -74,7 +74,7 @@
   {
     "nombre": "Medallero personalizado",
     "foto": "/imagenes/productos/medallero-personalizado.jpg",
-    "categoria": "A medida",
+    "categoria": "Personalizados",
     "descripcion": "Con tu frase y el tamaño que necesites.",
     "destacado": false,
     "visible": true
@@ -106,7 +106,7 @@
   {
     "nombre": "Ángel decorativo",
     "foto": "/imagenes/productos/angel-decorativo.jpg",
-    "categoria": "Decoración",
+    "categoria": "Personalizados",
     "descripcion": "Terminación plateada.",
     "destacado": false,
     "visible": true
