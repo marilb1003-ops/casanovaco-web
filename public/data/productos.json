@@ -90,7 +90,7 @@
   {
     "nombre": "Fantasmita luminoso",
     "foto": "/imagenes/productos/Fantasma lumidiscente.jpeg",
-    "categoria": "Decoración",
+    "categoria": "Halloween",
     "descripcion": "Impreso en material fotoluminiscente de alta calidad que brilla en la oscuridad. Carga luz durante el día y emite un suave brillo verdoso en la oscuridad.",
     "destacado": false,
     "visible": true
@@ -266,6 +266,38 @@
     "foto": "/imagenes/productos/Angelitos a medida.jpeg",
     "categoria": "Religiosos",
     "descripcion": "Figuras escultóricas de angelitos personalizados, finalizados con un acabado artesanal plateado que resalta las alas y sus expresiones.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Lámpara de Fantasma Colgante",
+    "foto": "/imagenes/productos/WhatsApp Image 2026-10-11 at 4.48.31 PM (1).jpeg",
+    "categoria": "Halloween",
+    "descripcion": "Lámpara de mesa temática con fantasmita calado colgado de un soporte en forma de rama, su diseño entramado proyecta destellos cálidos y acogedores, creando una atmósfera mágica de Halloween.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Llavero / Figura Fantasmal estilo Ghostface",
+    "foto": "/imagenes/productos/WhatsApp Image 2026-10-11 at 4.48.31 PM (2).jpeg",
+    "categoria": "Halloween",
+    "descripcion": "Figura coleccionable impresa en 3D inspirada en la mítica máscara de Scream con túnica encapuchada.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Lámpara Fantasmita Lector",
+    "foto": "/imagenes/productos/WhatsApp Image 2026-10-11 at 4.48.31 PM (3).jpeg",
+    "categoria": "Halloween",
+    "descripcion": "Adorable velador decorativo de fantasmita leyendo un libro, colgado de una elegante ménsula artesanal.",
+    "destacado": false,
+    "visible": true
+  },
+  {
+    "nombre": "Lámpara de Murciélago",
+    "foto": "/imagenes/productos/WhatsApp Image 2026-10-11 at 4.48.31 PM.jpeg",
+    "categoria": "Halloween",
+    "descripcion": "Lámpara de mesa calada en forma de murciélago con alas desplegadas, su trama geométrica deja traspasar una luz tenue y envolvente, ideal para ambientaciones nocturnas.",
     "destacado": false,
     "visible": true
   }
